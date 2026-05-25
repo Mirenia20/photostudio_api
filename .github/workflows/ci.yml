@@ -29,4 +29,4 @@ jobs:
         run: ./scripts/init-db.sh
 
       - name: Run tests
-        run: PYTHONPATH=. pytest -q
+        run:  pytest -q
